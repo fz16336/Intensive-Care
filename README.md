@@ -1,2 +1,3 @@
 # Intensive-Care
-Machine learning in the healthcare industry. 
+Mathematical and Data Modelling project on recognising patterns in the healthcare industry.
+ 
