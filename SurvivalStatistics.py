@@ -72,7 +72,7 @@ plt.show()
 # Comparing cluster survival statistics with overall population statistics
 patient_dataset = pd.read_csv('data/patients_data.csv')
 p = patient_dataset.iloc[:, k]
-p[np.isnan(p)] = 0
+p.loc[np.isnan(p)] = 0
 mp = np.mean(p)
 sp = np.std(p)
 

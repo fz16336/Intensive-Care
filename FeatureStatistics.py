@@ -27,8 +27,12 @@ labels = ["Age","Gender","Height","ICUType","Weight","Albumin","ALP","ALT","AST"
 #feature_dataset.head()
 #labels_dict = {key: l for l, key in enumerate(labels)}
 
-# Choose of the 38 healths features to analys, e.g type ALT. *Note: ALT and AST are
-# the interesthing health features to see (refer to report).
+'''
+Choose of the 38 healths features to analyse by typing the without quotation marks, e.g type ALT.
+*Note: ALT and AST are the interesthing health features to see (refer to report).
+To see what other options you can choose, look at or print(labels).
+'''
+
 choice = str(input('Which health features you want to analyse?: '))
 i = labels_dict[choice]
 D = feature_dataset.iloc[:, (i)].values
