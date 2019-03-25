@@ -4,7 +4,6 @@ Created on Thu Nov 20 12:35:01 2018
 
 @author: Farrel
 """
-
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -28,7 +27,7 @@ labels = ["Age","Gender","Height","ICUType","Weight","Albumin","ALP","ALT","AST"
 #feature_dataset.head()
 #labels_dict = {key: l for l, key in enumerate(labels)}
 
-# Choose of the 38 healths features to analys, e.g type ALT. *Note: ALT and AST are 
+# Choose of the 38 healths features to analys, e.g type ALT. *Note: ALT and AST are
 # the interesthing health features to see (refer to report).
 choice = str(input('Which health features you want to analyse?: '))
 i = labels_dict[choice]
