@@ -6,12 +6,12 @@ This repository contains the report of findings and statistics inferred from ana
 The dataset was taken from the PhysionNet Challenge. It consist of 4000 rows of anonymised patient ID with 70 columns (38 after data-pre-processing and feature engineering) health characteristics features, as well as a separate dataset for discharge metrics to infer the patients health outcome after admission.
 
 ## Contents
-* PatientSubtyping.py: Clustering assignment for the subtypes (clusters) present in the dataset, using $$k$$-means clustering and PCA.
+* PatientSubtyping.py: Clustering assignment for the subtypes (clusters) present in the dataset, using $k$-means clustering and PCA.
 * Evaluation.py: Elbow method to confirm number of $$k$$-clusters.
 * datacolecltion.m: Data pre-processing code
 * Statistics folder:
   * FeatureStatistics.py: Statistics on the distribution of features present in the main dataset
-  * ClusterStatistics.py: Statistical analysis of each cluster for both $$k$$=2 and $$k$$=5
+  * ClusterStatistics.py: Statistical analysis of each cluster for both $k$=2 and $$k$$=5
   * SurvivalStatistics.py: Statistics of patients well-being after being discharge from intensive care
   * Statistics.ipynb:Jupyter notebook of all the statistical analysis of the 3 .py files combined for an easy read evaluation
 
