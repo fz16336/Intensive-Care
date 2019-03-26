@@ -15,7 +15,10 @@ The dataset was taken from the PhysionNet Challenge. It consist of 4000 rows of 
   * Statistics.ipynb:Jupyter notebook of all the statistical analysis of the 3 .py files combined for an easy read evaluation
 
 ## Summary of Result
-Aspartate transaminase (AST) and Alanine transminase (ALT) are enzymes present in the liver which becomes the basis of our findings as both of them totaled to capturing around 90% of the variances in the data. They also become the main contribution in terms of the seperation between the two clusters. Cluster analyis were done by comparing k=2 clusters, based on evaluation by the Elbow method, and k=5 clusters (too see if there are any other subpopulations inside the two main clusters).
+*Aspartate transaminase* (*AST*) and *Alanine transaminase* (*ALT*) are enzymes present in the liver which becomes the basis of our findings as both of them totaled to capturing around 90% of the variances in the data. They also become the main contribution in terms of the seperation between the two clusters with in k=2 clusters the clusters differ in terms of *AST* and *ALT* levels, with cluster subtype0 depicting abnormally high *AST* and *ALT* levels, in addition to being validly obese (commonly accepted causality). This were then solidified by comparing their survival statistics, and the cluster subtype0 possesses higher mortality rate as well.
 
+Cluster analyis were done by comparing k=2 clusters, based on evaluation by the Elbow method, and k=5 clusters (too see if there are any other subpopulation difference inside the two main clusters).
+
+Essentially, 
 ![k=2](/k=2.png)
 ![k=5](/figures/k=5.png)
