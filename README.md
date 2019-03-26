@@ -3,7 +3,7 @@ Mathematical and Data Modelling project on recognising patterns in the internsiv
 This repository contains the report of findings and statistics inferred from analysing the PhysioNet Challenge dataset, as well as the Python codes used for clustering and statistical analysis. 
 
 ## Dataset
-The dataset was given from the PhysionNet Challenge. It consist of 4000 rows of anonymised patient ID with 70 columns (38 after data-preprocessing and feature engineering) health charectristics features, as well as a seperate dataset for discharge metrics to infer the patients health outcome after admission. 
+The dataset was taken from the PhysionNet Challenge. It consist of 4000 rows of anonymised patient ID with 70 columns (38 after data-preprocessing and feature engineering) health charectristics features, as well as a seperate dataset for discharge metrics to infer the patients health outcome after admission. 
 
 ## Contents
 * PatientSubtyping.py: Clustering assignment for the subtypes (clusters) present in the dataset, using K-means clustering and PCA.
