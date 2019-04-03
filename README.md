@@ -22,3 +22,6 @@ Cluster analysis were done by comparing k=2 clusters, based on evaluation by the
 
 ![clusters](/clusters.png)
 <!-- ![$$k$$=5](/figures/$$k$$=5.png) -->
+
+## Future Works
+Currently attempting to incorporate 'time-aware' LSTM networks as an alternative/additional model.
